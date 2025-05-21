@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+/* 반응형 */
+/* laptop size - 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .iconWrap .icon {
+        margin: 0 8px;
+        font-size: 1em;
+    }
+
+    .introListWrap .introList .intro {
+        font-size: 1em;
+    }
+
+    .workStickyWrap .work {
+        font-size: .8em;
+    }
+
+    .footerWrap .footerTextWrap {
+        top: 50%;
+    }
+}
+
+/* tablet size - 768px */
+@media screen and (max-width: 768px) {
+    .subIntroInner {
+        font-size: .8em;   
+    }
+
+    .subIntroWrap .keyword::after {
+        width: 40px;
+    }
+
+    .workTitleWrap {
+        margin: 10vh 0 20vh 0;
+    }
+
+    .workStickyWrap {
+        display: block;
+    }
+
+    .workStickyWrap .work {
+        margin-top: 0;
+    }
+
+    .workImgWrap {
+        margin-top: 8vw;
+    }
+
+    .workImgList {
+        padding: 0 4vw;
+    }
+
+    .workImgList .workLink {
+        height: 130px;
+        padding: 0;
+    }
+
+    .workImgList {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .workImgList .workSubTitleWrap .workSubTitle {
+        font-size: .8em;
+    }
+
+    .workStickyWrap {
+        padding-bottom: 20vw;
+    } 
+
+    .logo a {
+        font-size: .6em;
+    }
+
+    .introWrap {
+        display: block;
+    }
+
+    .introListWrap {
+        top: 50%;
+    }
+
+    .introListWrap .introList .intro {
+        font-size: .8em;
+    }
+
+    .circleArea {
+        top: 30%;
+        z-index: -1;
+    }
+
+    .circleWrap .circle {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .subIntroWrap {
+        height: 50vh;
+    }
+
+    .subIntroWrap .keyword::after {
+        width: 30px;
+    }
+
+    .sectionWrap {
+        height: 40vh;
+    }
+
+    .workTitleWrap .workTitle {
+        font-size: .8em;
+    }
+
+    .workImgList .workSubTitleWrap .workSubTitle {
+        font-size: .6em;
+    }
+
+    .workTitleWrap2 .workTitle {
+        font-size: .8em;
+    }
+
+    .footerWrap .circleArea, .footerWrap .footerTextWrap {
+        top: 50%;
+    }
+
+    .iconWrap {
+        right: 0.8em;
+        bottom: 0.8em;
+    }
+
+    .iconWrap .icon {
+        margin: 0 6px;
+        font-size: 1em;
+    }
+}
